@@ -1,0 +1,915 @@
+* {
+    margin: 0%;
+    padding: 0%;
+  }
+  
+  html {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  
+
+  .logomobile {
+    display: none;
+  }
+  
+  .burger {
+    display:none;
+  } 
+  
+  .navdesktop {
+    border-bottom: 0.2vw solid white;
+    font-family: "oswald";
+    font-weight: 400;
+    padding-top: 0.7vw;
+    padding-bottom: 0.7vw;
+    z-index: 10;
+    font-size: 0.8vw;
+    letter-spacing: 0.1vw;
+  }
+  
+  .navdesktop > ul > li > a {
+    text-decoration: none;
+  }
+  
+  .logo > a {
+    font-size: 2.1vw;
+    margin-right: 2.2vw;
+    text-transform: none;
+    letter-spacing: 0;
+    padding-right: 3vw;
+    padding-left: 3vw;
+    margin-left: 1.5vw;
+    color: #6d7628;
+    font-family: "trochut";
+  }
+  
+  .logoscroll {
+    font-size: 0.1vw;
+  }
+  
+  .navdesktop > ul,
+  li {
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .Drightnav {
+    text-align: right;
+    position: relative;
+    left: 53vw;
+    bottom: 0.2vw;
+    text-transform: uppercase;
+  }
+  
+  .Drightnav > ul,
+  li,
+  a {
+    text-decoration: none;
+  }
+  
+  .Drightnav > li {
+    margin-right: 5vw;
+  }
+  
+  .Drightnav > li > a {
+    padding: 0.3vw 2vw 0.3vw 2vw;
+    border: 0.2vw solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    background-color: #0000005b;
+  }
+
+  .active {
+    color: rgba(255, 255, 255, 0.856);
+    background-color: #0000009b;
+      padding: 0.3vw 0vw 0.3vw 0vw;
+    }
+  
+  .Drightnav > li > a:hover {
+    background-color: #00000093;
+    font-weight: bold;
+  }
+  
+  .Dleftnav {
+    margin-left: 0vw;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 0.2vw;
+  }
+  
+  .blognav > a {
+    padding: 0.3vw 2vw 0.3vw 2vw;
+    border: 0.2vw solid rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.76);
+    background-color: #ffffff00;
+  }
+  
+  .blognav > a:hover {
+    background-color: #ffffffaf;
+    font-weight: bold;
+  }
+  
+  /******* SCROLLING */
+  
+  .scrolled {
+    background: rgba(255, 255, 255, 0.781);
+    position: fixed;
+    z-index: 100;
+    font-size: 0.7vw;
+    border-bottom: 0.1vw solid rgba(0, 0, 0, 0.26);
+    width: 100%;
+  }
+  
+  .cs > a {
+    font-size: 1.5vw;
+  }
+  
+  .scrollright {
+    left: 57vw;
+  }
+  
+  .scrollright > li > a {
+  }
+  
+  .scrollleft > .blognav > a {
+    border: 0.1vw solid rgba(0, 0, 0, 0.315);
+  }
+  
+  /*------------------    SECTION    ------------------------*/
+  
+  .first {
+    font-family: "Courier New", Courier, monospace;
+    position: relative;
+    bottom: 4.4vw;
+    height: 133vw;
+    z-index: -1;
+    background-image: url(/img/contact1.jpg);
+    background-size: cover;
+  }
+  
+  img {
+    width: 100%;
+    z-index: -1;
+  }
+  
+  /** text */
+  
+  .welcometext {
+    text-align: center;
+    padding-top: 20vw;
+  }
+  
+  .welcometext > p {
+    font-family: "courier new", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 1.1vw;
+    margin-top: 2vw;
+  }
+  
+  .welcometext > h1 {
+    font-family: "abel";
+    font-weight: lighter;
+    /* -webkit-text-stroke: rgb(255, 255, 255) 0.1vw; */
+    font-size: 5.5vw;
+
+  }
+
+
+/*** round circle */
+
+.roundtext {
+  margin-top: 22vw;
+  width: 15%;
+position: relative;
+  border: solid rgba(0, 0, 0, 0.562) 0.01px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 50%;
+  padding: 7vw 2vw 7vw 2vw;
+  font-size: 1.1w;
+  font-family: "abel";
+}
+
+
+  /***** footer *********/
+  
+  footer {
+    margin-top: 22vw;
+    text-align: center;
+    background-image: url(/img/footer1.jpg);
+    width: 100%;
+    background-size: cover;
+    font-family: "trochut";
+    font-size: 2.5vw;
+    padding-bottom: 2.2vw;
+    padding-top: 5vw;
+  }
+  
+  .footertext {
+    width: 44%;
+    margin: 0 auto;
+    padding-bottom: 5vw;
+  }
+  
+  .footertext > h3 {
+    margin-bottom: 2vw;
+    color: #6d7628;
+    font-weight: normal;
+    -webkit-text-stroke: rgb(255, 255, 255) 0vw;
+  }
+  
+  .footertext > p {
+    font-family: "courier new";
+    font-size: 1vw;
+    letter-spacing: 0;
+    line-height: 2vw;
+  }
+  
+  .footerlinks {
+    width: 15%;
+    margin: 0 auto;
+  }
+  
+  .footerlinks > ul > li,
+  .footerlinks > ul > li > a {
+    display: block;
+    color: black;
+    text-transform: uppercase;
+    font-family: "abel";
+    letter-spacing: 0.5vw;
+    font-size: 1.1vw;
+  }
+  
+  .footerlinks > ul > li > a {
+    border: solid rgba(0, 0, 0, 0.671) 0.1vw;
+    padding: 0.5vw 0vw 0.5vw 0vw;
+    margin: 2vw 0vw 0vw 0vw;
+  }
+  
+  .footerlinks > ul > li > a:hover {
+    border: solid black 0.1vw;
+    font-weight: 100;
+    -webkit-text-stroke: black 0.5px;
+    background-color: rgb(255, 255, 255);
+    letter-spacing: 0.1vw;
+  }
+  
+  .line {
+    margin-top: 5vw;
+    padding: 0.1vw;
+    background-color: white;
+  }
+  
+  .footersymbols {
+    margin-top: 2vw;
+    font-size: 1.7vw;
+  }
+  
+  .footersymbols > .fab {
+    margin: 0vw 2vw;
+    opacity: 70%;
+    cursor: pointer;
+    font-size: 2vw;
+  }
+
+.borderfootery {
+  display: inline;
+  margin: 2vw;
+  cursor: pointer;
+  padding: 1vw;
+    /* border: 0.1vw solid rgba(0, 0, 0, 0.463); */
+}
+
+.borderfootery:hover {
+  background-color: rgba(0, 0, 0, 0.541);
+  color: rgb(255, 255, 255);
+  /* border-radius: 50%; */
+}
+
+
+
+
+
+  /****** FORM */
+
+  textarea {
+      height: 77%;
+      width: 100%;
+  }
+
+
+#textError {
+    display: none;
+    position: relative;
+    font-family: "roboto", Arial, Helvetica, sans-serif;
+    font-size: 1.1vw;
+    color: rgb(255, 255, 255);
+    padding: 0.2vw;
+    text-align: center;
+    background-color: rgb(114, 59, 59);
+}
+
+
+
+.contactformssss {
+  position: relative;
+  z-index: 300;
+  margin: 0 auto;
+  top: 10vw;
+  background-color: rgba(58, 58, 58, 0.733);
+  padding-bottom: 15vw;
+}
+
+
+.flesgxy {
+    flex-direction: row;
+    display: flex;
+    grid-gap: 7vw;
+    justify-content: center;
+}
+
+
+#form {
+  position: relative;
+  padding: 2vw 2vw 2vw 2vw;
+  right: 3.3vw;
+  background-attachment: fixed;
+  color: rgba(255, 255, 255, 0.452);
+  width: 70%;
+  margin: 0 auto;
+}
+
+
+
+.firstcontact {
+    flex: 1;
+}
+
+.message {
+    flex: 1;
+    z-index: 200;
+}
+
+input {
+  background-color: rgb(255, 255, 255);
+  display: block;
+  width: 100%;
+  padding: 2.2vw 0.5vw 2.2vw 1vw;
+  align-items: center;
+  margin-bottom: 2vw;
+  border: 0vw;
+  border: solid rgba(0, 0, 0, 0.699) 0.1vw;
+}
+
+textarea::placeholder {
+    padding: 1.1vw 0vw 1.1vw 0.7vw;
+}
+
+
+input::placeholder, textarea::placeholder   {
+  color: rgb(48, 48, 48);
+  font-weight: lighter;
+  font-family: "roboto";
+}
+
+label {
+  font-family: "cutive mono", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.3vw;
+}
+
+legend {
+  font-family: "roboto", Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 2vw;
+  text-align: center;
+  margin: 0vw 0vw 2vw 0vw;
+  letter-spacing: 0.1vw;
+}
+.error {
+  display: none;
+  position: relative;
+  bottom: 2vw;
+  font-family: "roboto", Arial, Helvetica, sans-serif;
+  font-size: 1.1vw;
+  color: rgb(255, 255, 255);
+  padding: 0.2vw;
+  background-color: rgb(114, 59, 59);
+  width: 100%;
+  text-align: center;
+}
+
+
+button {
+  position: relative;
+  justify-content: center;
+  width: 30%;
+  left: 30%;
+  bottom: 66vw;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  font-size: 1.1vw;
+  text-transform: uppercase;
+  font-family: "helvetica";
+  letter-spacing: 0.2vw;
+  border-radius: 1vw;
+  color: white;
+  box-shadow: none;
+  cursor: pointer;
+  padding: 2vw 0.5vw 2vw 0.1vw;
+  background-color: rgba(119, 119, 119, 0.918);
+  border: 0.1px solid white;
+}
+
+  
+
+
+
+
+@media only screen and (max-width: 1100px) {
+
+  /*** globals */
+  
+    .navdesktop {
+      padding-top: 1vw;
+      padding-bottom: 1vw;
+      font-size: 1.7vw;
+    }
+  
+    .logo > a {
+      font-size: 3.5vw;
+    }
+    
+    .logoscroll {
+      font-size: 10vw;
+    }
+    
+    .Drightnav {
+      left: 33vw;
+    }
+  
+    
+    .Drightnav > li > a {
+      padding: 0.7vw 2.5vw 0.5vw 2.5vw;
+      border: 0.3vw solid rgb(255, 255, 255);
+    }
+    
+    
+    .blognav > a {
+      padding: 0.7vw 2.5vw 0.5vw 2.5vw;
+      border: 0.3vw solid rgb(255, 255, 255);
+      margin-left: 5vw;
+    }
+    
+    
+    /******* SCROLLING */
+    
+    .scrolled {
+      font-size: 1.7vw;
+      border-bottom: 0.3vw solid rgba(0, 0, 0, 0.26);
+    }
+    
+    .cs > a {
+      font-size: 3.3vw;
+    }
+    
+    .scrollright {
+      left: 33vw;
+    }
+  
+  
+    /**** footer */
+    footer {
+      font-size: 4.4vw;
+      padding-bottom: 10vw;
+    }
+    
+    .footertext {
+      width: 66%;
+      margin: 0 auto;
+      padding-bottom: 7vw;
+    }
+    
+    
+    .footertext > p {
+      font-size: 2.2vw;
+      letter-spacing: 0vw;
+      line-height: 3vw;
+    }
+    
+    .footerlinks {
+      width: 55%;
+      margin-bottom: 10vw;
+    }
+    
+    .footerlinks > ul > li,
+    .footerlinks > ul > li > a {
+      font-size: 2.2vw;
+    }
+    
+    .footerlinks > ul > li > a {
+      padding: 2vw 0vw 2vw 0vw;
+      margin: 7vw 0vw 0vw 0vw;
+    }
+    
+    .line {
+      margin-top: 5vw;
+      padding: 0.1vw;
+      background-color: white;
+    }
+    
+    .footersymbols {
+      margin-top: 5vw;
+      font-size: 3.3vw;
+    }
+    
+  
+  .borderfootery {
+    display: inline;
+    margin: 3.3vw;
+  }
+
+.roundtext {
+  width: 33%;
+  border-radius: 50%;
+  padding: 7.7vw 2vw 7.7vw 2vw;
+  font-size: 3.3vw;
+}
+
+
+
+
+/* contact */
+
+.first {
+  bottom: 6.6vw;
+  height: 133vw;
+}
+
+/** text */
+
+.welcometext {
+  padding-top: 20vw;
+}
+
+.welcometext > p {
+  font-size: 2.2vw;
+  margin-top: 3.3vw;
+}
+
+.welcometext > h1 {
+  font-size: 7.7vw;
+
+}
+
+
+
+
+  /****** FORM */
+
+  textarea {
+    height: 90%;
+    width: 100%;
+    border: solid rgba(0, 0, 0, 0.699) 0.5vw;
+}
+
+
+#textError {
+  font-size: 2vw;
+  padding: 0.5vw;
+}
+
+
+
+.contactformssss {
+top: 22vw;
+padding-bottom: 22vw;
+}
+
+
+.flesgxy {
+  flex-direction: row;
+  grid-gap: 7vw;
+}
+
+
+#form {
+right: 0vw;
+width: 90%;
+}
+
+
+
+input {
+width: 100%;
+padding: 3vw 0.5vw 3vw 1vw;
+margin-bottom: 2vw;
+border: solid rgba(0, 0, 0, 0.699) 0.5vw;
+}
+
+
+input::placeholder, textarea::placeholder   {
+font-size: 2.2vw;
+}
+
+
+.error {
+bottom: 1.1vw;
+padding: 0.2vw;
+font-size: 2vw;
+padding: 0.5vw;
+}
+
+
+button {
+width: 30%;
+left: 30%;
+bottom: 33vw;
+font-size: 2.2vw;
+padding: 2vw 0.5vw 2vw 0.1vw;
+border: 0.5px solid white;
+}
+
+}
+
+
+
+@media only screen and (max-width: 450px) {
+
+  /*** globals */
+
+  .logomobile {
+    display: inline-block;
+    font-size: 11vw;
+    margin-right: 2.2vw;
+    text-transform: none;
+    letter-spacing: 0;
+    padding-right: 3vw;
+    padding-left: 3vw;
+    margin-left: 1.5vw;
+    color: #6d7628;
+    font-family: "trochut";
+    position: relative;
+    top: 5vw;
+  }
+
+  .logomobile > a {
+    color: #6d7628;
+  } 
+
+
+
+  .fa-bars {
+    font-size: 19vw;
+  }
+  /****/
+  
+.burger {
+  display: block;
+  position: absolute;
+  right: 7vw;
+  text-align: right;
+  font-size: 19vw;
+  top: 1vw;
+  color: rgba(0, 0, 0, 0.767);
+}
+
+nav {
+    display: none;
+}
+
+#hamburger-menu {
+    display: none;
+}
+
+#hamburger-menu:checked ~ nav {
+    display: block;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.89);
+  font-size: 11vw;
+  width: 100vw;
+  height: 60vh;
+  position: relative;
+  padding-top: 11vw;
+  padding-bottom: 60vw;
+  bottom: 3vw;
+  left: 7vw;
+  text-align: center;
+  z-index: 100;
+  overflow: hidden;
+  text-transform: uppercase;
+}
+
+nav > ul > li {
+  display: block;
+}
+
+nav > ul {
+  color: black;
+  line-height: 44vw;
+}
+
+nav > ul > li > a {
+  width: 100vw;
+  padding: 5vw 22vw 5vw 22vw;
+  color: white;
+}
+
+
+
+
+
+/*****/
+.navdesktop {
+      display: none;
+    }
+    
+    
+    /******* SCROLLING */
+    
+    .scrolled {
+      font-size: 1.7vw;
+      border-bottom: 0.3vw solid rgba(0, 0, 0, 0.26);
+    }
+    
+    .cs > a {
+      font-size: 3.3vw;
+    }
+    
+    .scrollright {
+      left: 33vw;
+    }
+  
+  
+    /**** footer */
+    footer {
+      font-size: 7.7vw;
+      padding-bottom: 10vw;
+    }
+    
+    .footertext {
+      width: 77%;
+      margin: 0 auto;
+      padding: 10vw 0vw 10vw 0vw;
+    }
+    
+    
+    .footertext > p {
+      font-size: 4.4vw;
+      line-height: 5vw;
+      margin-top: 7vw;
+    }
+    
+    .footerlinks {
+      width: 70%;
+      margin-bottom: 16vw;
+    }
+    
+    .footerlinks > ul > li,
+    .footerlinks > ul > li > a {
+      font-size: 4.4vw;
+    }
+    
+    .footerlinks > ul > li > a {
+      padding: 5vw 0vw 5vw 0vw;
+      margin: 15vw 0vw 0vw 0vw;
+    }
+    
+    .line {
+      margin-top: 5vw;
+      padding: 0.1vw;
+      background-color: white;
+    }
+    
+    .footersymbols {
+      margin-top: 9vw;
+      font-size: 7.7vw;
+    }
+    
+  
+  .borderfootery {
+    display: flex;
+    margin: 10vw;
+    flex-direction: column;
+    padding: 10vw;
+  }
+  
+  
+  
+  
+  
+  /*** index */
+  
+  
+  
+  
+  /* contact */
+  
+  .first {
+    bottom: 13vw;
+    height: 233vw;
+    margin-bottom: 200vw;
+  }
+  
+  /** text */
+  
+  
+  .welcometext > p {
+    font-size: 4.4vw;
+    margin: 0 auto;
+    width: 70%;
+    padding-top: 5vw;
+  }
+  
+  .welcometext > h1 {
+    margin-top: 20vw;
+    font-size: 9.9vw;
+  
+  }
+  
+  
+  
+  
+    /****** FORM */
+  
+    textarea {
+      height: 70vw;
+      width: 90%;
+      border: solid rgba(0, 0, 0, 0.89) 0.5vw;
+      padding: 7vw 0vw 7vw 5vw;
+      font-size: 4.4vw;
+  }
+  
+  
+  #textError {
+    font-size: 2vw;
+    padding: 0.5vw;
+  }
+  
+  
+  
+  .contactformssss {
+  top: 44vw;
+  padding-bottom: 22vw;
+  font-size: 10vw;
+  padding-top: 20vw;
+  }
+  
+  
+  .flesgxy {
+    flex-direction: column;
+    grid-gap: 7vw;
+  }
+  
+  
+  #form {
+  right: 0vw;
+  width: 90%;
+  }
+  
+  
+  
+  input {
+  width: 90%;
+  padding: 7vw 0vw 7vw 5vw;
+  margin-bottom: 10vw;
+  border: solid rgba(0, 0, 0, 0.699) 0.5vw;
+  }
+  
+  
+  input::placeholder, textarea::placeholder   {
+    font-size: 4.4vw;
+  }
+  
+  
+  .error {
+  bottom: 1.1vw;
+  padding: 0.2vw;
+  font-size: 2vw;
+  padding: 0.5vw;
+  }
+  
+  
+  button {
+  width: 70%;
+  left: 11%;
+  bottom: 70vw;
+  font-size: 4.4vw;
+  padding: 7vw 0.5vw 7vw 0.1vw;
+  border: 0.5px solid white;
+  }
+
+  /*** round circle */
+  
+  .roundtext {
+    width: 60%;
+    border-radius: 50%;
+    padding: 20vw 7vw 20vw 7vw;
+    font-size: 5.5vw;
+  }
+
+
+  }

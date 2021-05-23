@@ -1,0 +1,852 @@
+* {
+    margin: 0%;
+    padding: 0%;
+  }
+  
+  html {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+
+  .logomobile {
+    display: none;
+  }
+  
+  .burger {
+    display:none;
+  }
+  
+
+  .navdesktop {
+    border-bottom: 0.2vw solid white;
+    font-family: "oswald";
+    font-weight: 400;
+    padding-top: 0.7vw;
+    padding-bottom: 0.7vw;
+    z-index: 10;
+    font-size: 0.8vw;
+    letter-spacing: 0.1vw;
+  }
+  
+  .navdesktop > ul > li > a {
+    text-decoration: none;
+  }
+  
+  .logo > a {
+    font-size: 2.1vw;
+    margin-right: 2.2vw;
+    text-transform: none;
+    letter-spacing: 0;
+    padding-right: 3vw;
+    padding-left: 3vw;
+    margin-left: 1.5vw;
+    color: #6d7628;
+    font-family: "trochut";
+  }
+  
+  .logoscroll {
+    font-size: 0.1vw;
+  }
+  
+  .navdesktop > ul,
+  li {
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .Drightnav {
+    text-align: right;
+    position: relative;
+    left: 53vw;
+    bottom: 0.2vw;
+    text-transform: uppercase;
+  }
+  
+  .Drightnav > ul,
+  li,
+  a {
+    text-decoration: none;
+  }
+  
+  .Drightnav > li {
+    margin-right: 5vw;
+  }
+  
+  .Drightnav > li > a {
+    padding: 0.3vw 2vw 0.3vw 2vw;
+    border: 0.2vw solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    background-color: #0000005b;
+    
+  }
+
+.active {
+  color: rgba(255, 255, 255, 0.856);
+  background-color: #0000009b;
+    padding: 0.3vw 0vw 0.3vw 0vw;
+  }
+  
+  .Drightnav > li > a:hover {
+    background-color: #00000093;
+    font-weight: bold;
+  }
+  
+  .Dleftnav {
+    margin-left: 0vw;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 0.2vw;
+  }
+  
+  .blognav > a {
+    padding: 0.3vw 2vw 0.3vw 2vw;
+    border: 0.2vw solid rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.76);
+    background-color: #ffffff00;
+  }
+  
+  .blognav > a:hover {
+    background-color: #ffffffaf;
+    font-weight: bold;
+  }
+  
+  /******* SCROLLING */
+  
+  .scrolled {
+    background: rgba(255, 255, 255, 0.781);
+    position: fixed;
+    z-index: 100;
+    font-size: 0.7vw;
+    border-bottom: 0.1vw solid rgba(0, 0, 0, 0.26);
+    width: 100%;
+  }
+  
+  .cs > a {
+    font-size: 1.5vw;
+  }
+  
+  .scrollright {
+    left: 57vw;
+  }
+  
+  .scrollleft > .blognav > a {
+    border: 0.1vw solid rgba(0, 0, 0, 0.315);
+  }
+  
+  /*------------------    SECTION    ------------------------*/
+  
+  .first {
+    font-family: "Courier New", Courier, monospace;
+    position: relative;
+    bottom: 4.4vw;
+    height: 60vw;
+    z-index: -1;
+    background-image: url(/img/about.jpg);
+    background-size: cover;
+  }
+  
+  img {
+    width: 100%;
+    z-index: -1;
+  }
+  
+  /** text */
+  
+  .welcometext {
+    text-align: center;
+    padding-top: 20vw;
+  }
+  
+  .welcometext > p {
+    font-family: "courier new", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 1.1vw;
+    margin: 0 auto;
+  }
+  
+  .welcometext > h1 {
+    font-family: "abel";
+    font-weight: lighter;
+    /* -webkit-text-stroke: rgb(255, 255, 255) 0.1vw; */
+    font-size: 5.5vw;
+    color: #B19F56;
+    letter-spacing: -0.5vw;
+
+  }
+
+
+
+  /****** TEXT BOX*/
+
+  .text {
+    background-color:#2A2A29;
+    color:#F0EFE7;
+    display: flex;
+    position: relative;
+    bottom: 20vw;
+flex-direction: row;
+grid-gap: 3vw;
+width: 80%;
+padding: 5vw 5vw 22vw 5vw;
+margin: 0 auto;
+line-height: 2.2vw;
+font-family: abel;
+font-size: 1.1vw;
+  }
+
+
+  .one, .two {
+    flex: 1;
+  }
+  
+.one p, .two p {
+  margin-bottom: 2vw;
+}
+
+.textsymbols {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.1vw;
+  position: relative;
+  bottom: 33vw;
+  color: rgb(255, 255, 255);
+}
+
+
+.textsymbols > .fab {
+  text-align: center;
+  margin: 2.2vw;
+  cursor: pointer;
+}
+
+
+.fabborder {
+  display: inline-block;
+  border: white 1px;
+  padding: 1vw;
+}
+
+.fabborder:hover {
+  background-color: rgba(0, 0, 0, 0.637);
+  cursor: pointer;
+}
+
+
+
+
+/*** round circle */
+
+.roundtext {
+  margin-top: 22vw;
+  width: 15%;
+position: relative;
+  border: solid rgba(0, 0, 0, 0.562) 0.01px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 50%;
+  padding: 7vw 2vw 7vw 2vw;
+  font-size: 1.1w;
+  font-family: "abel";
+}
+
+
+  /***** footer *********/
+  
+  footer {
+    margin-top: 22vw;
+    text-align: center;
+    background-image: url(/img/footer1.jpg);
+    width: 100%;
+    background-size: cover;
+    font-family: "trochut";
+    font-size: 2.5vw;
+    padding-bottom: 2.2vw;
+    padding-top: 5vw;
+  }
+  
+  .footertext {
+    width: 44%;
+    margin: 0 auto;
+    padding-bottom: 5vw;
+  }
+  
+  .footertext > h3 {
+    margin-bottom: 2vw;
+    color: #6d7628;
+    font-weight: normal;
+    -webkit-text-stroke: rgb(255, 255, 255) 0vw;
+  }
+  
+  .footertext > p {
+    font-family: "courier new";
+    font-size: 1vw;
+    letter-spacing: 0;
+    line-height: 2vw;
+  }
+  
+  .footerlinks {
+    width: 15%;
+    margin: 0 auto;
+  }
+  
+  .footerlinks > ul > li,
+  .footerlinks > ul > li > a {
+    display: block;
+    color: black;
+    text-transform: uppercase;
+    font-family: "abel";
+    letter-spacing: 0.5vw;
+    font-size: 1.1vw;
+  }
+  
+  .footerlinks > ul > li > a {
+    border: solid rgba(0, 0, 0, 0.671) 0.1vw;
+    padding: 0.5vw 0vw 0.5vw 0vw;
+    margin: 2vw 0vw 0vw 0vw;
+  }
+  
+  .footerlinks > ul > li > a:hover {
+    border: solid black 0.1vw;
+    font-weight: 100;
+    -webkit-text-stroke: black 0.5px;
+    background-color: rgb(255, 255, 255);
+    letter-spacing: 0.1vw;
+  }
+  
+  .line {
+    margin-top: 5vw;
+    padding: 0.1vw;
+    background-color: white;
+  }
+  
+  .footersymbols {
+    margin-top: 2vw;
+    font-size: 1.7vw;
+  }
+  
+  .footersymbols > .fab {
+    margin: 0vw 2vw;
+    opacity: 70%;
+    cursor: pointer;
+    font-size: 2vw;
+  }
+
+.borderfootery {
+  display: inline;
+  margin: 2vw;
+  cursor: pointer;
+  padding: 1vw;
+    /* border: 0.1vw solid rgba(0, 0, 0, 0.463); */
+}
+
+.borderfootery:hover {
+  background-color: rgba(0, 0, 0, 0.541);
+  color: rgb(255, 255, 255);
+  /* border-radius: 50%; */
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1100px) {
+
+  /*** globals */
+  
+    .navdesktop {
+      padding-top: 1vw;
+      padding-bottom: 1vw;
+      font-size: 1.7vw;
+    }
+  
+    .logo > a {
+      font-size: 3.5vw;
+    }
+    
+    .logoscroll {
+      font-size: 10vw;
+    }
+    
+    .Drightnav {
+      left: 33vw;
+    }
+  
+    
+    .Drightnav > li > a {
+      padding: 0.7vw 2.5vw 0.5vw 2.5vw;
+      border: 0.3vw solid rgb(255, 255, 255);
+    }
+    
+    
+    .blognav > a {
+      padding: 0.7vw 2.5vw 0.5vw 2.5vw;
+      border: 0.3vw solid rgb(255, 255, 255);
+      margin-left: 5vw;
+    }
+    
+    
+    /******* SCROLLING */
+
+    .scrolled {
+      font-size: 1.7vw;
+      border-bottom: 0.3vw solid rgba(0, 0, 0, 0.26);
+    }
+    
+    .cs > a {
+      font-size: 3.3vw;
+    }
+    
+    .scrollright {
+      left: 33vw;
+    }
+  
+  
+    /**** footer */
+    footer {
+      font-size: 4.4vw;
+      padding-bottom: 10vw;
+    }
+    
+    .footertext {
+      width: 66%;
+      margin: 0 auto;
+      padding-bottom: 7vw;
+    }
+    
+    
+    .footertext > p {
+      font-size: 2.2vw;
+      letter-spacing: 0vw;
+      line-height: 3vw;
+    }
+    
+    .footerlinks {
+      width: 55%;
+      margin-bottom: 10vw;
+    }
+    
+    .footerlinks > ul > li,
+    .footerlinks > ul > li > a {
+      font-size: 2.2vw;
+    }
+    
+    .footerlinks > ul > li > a {
+      padding: 2vw 0vw 2vw 0vw;
+      margin: 7vw 0vw 0vw 0vw;
+    }
+    
+    .line {
+      margin-top: 5vw;
+      padding: 0.1vw;
+      background-color: white;
+    }
+    
+    .footersymbols {
+      margin-top: 5vw;
+      font-size: 3.3vw;
+    }
+    
+  
+  .borderfootery {
+    display: inline;
+    margin: 3.3vw;
+  }
+
+  /*** round circle */
+
+.roundtext {
+  width: 33%;
+  border-radius: 50%;
+  padding: 7.7vw 2vw 7.7vw 2vw;
+  font-size: 3.3vw;
+}
+
+
+
+/* about */
+
+
+.first {
+  bottom: 6.6vw;
+  height: 70vw;
+}
+
+/** text */
+
+.welcometext {
+  padding-top: 20vw;
+}
+
+.welcometext > p {
+  font-size: 2.2vw;
+  margin-top: 3.3vw;
+}
+
+.welcometext > h1 {
+  font-size: 7.7vw;
+}
+
+
+
+
+/****** TEXT BOX */
+
+
+.text {
+  bottom: 20vw;
+flex-direction: column;
+grid-gap: 3vw;
+width: 80%;
+padding: 5vw 5vw 33vw 5vw;
+line-height: 3vw;
+font-size: 2.2vw;
+}
+  
+.one p, .two p {
+  margin-bottom: 2vw;
+}
+
+.textsymbols {
+  font-size: 2.2vw;
+  bottom: 44vw;
+}
+
+
+.textsymbols > .fab {
+  margin: 10vw;
+}
+
+
+.fabborder {
+  padding: 3.3vw;
+}
+
+}
+
+
+
+
+
+@media only screen and (max-width: 450px) {
+
+  /*** globals */
+  /*** globals */
+
+  .logomobile {
+    display: inline-block;
+    font-size: 11vw;
+    margin-right: 2.2vw;
+    text-transform: none;
+    letter-spacing: 0;
+    padding-right: 3vw;
+    padding-left: 3vw;
+    margin-left: 1.5vw;
+    color: #6d7628;
+    font-family: "trochut";
+    position: relative;
+    top: 5vw;
+  }
+
+  .logomobile > a {
+    color: #6d7628;
+  } 
+
+  /****/
+  
+.burger {
+  display: block;
+  position: absolute;
+  right: 7vw;
+  text-align: right;
+  font-size: 19vw;
+  top: 1vw;
+  color: rgba(0, 0, 0, 0.767);
+}
+
+nav {
+    display: none;
+}
+
+#hamburger-menu {
+    display: none;
+}
+
+#hamburger-menu:checked ~ nav {
+    display: block;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.89);
+  font-size: 11vw;
+  width: 100vw;
+  height: 60vh;
+  position: relative;
+  padding-top: 11vw;
+  padding-bottom: 60vw;
+  bottom: 3vw;
+  left: 7vw;
+  text-align: center;
+  z-index: 100;
+  overflow: hidden;
+  text-transform: uppercase;
+}
+
+nav > ul > li {
+  display: block;
+}
+
+nav > ul {
+  color: black;
+  line-height: 44vw;
+}
+
+nav > ul > li > a {
+  width: 100vw;
+  padding: 5vw 22vw 5vw 22vw;
+  color: white;
+}
+
+
+
+
+
+/*****/
+.navdesktop {
+      display: none;
+    }
+
+    
+    /******* SCROLLING */
+    
+    .scrolled {
+      font-size: 1.7vw;
+      border-bottom: 0.3vw solid rgba(0, 0, 0, 0.26);
+    }
+    
+    .cs > a {
+      font-size: 3.3vw;
+    }
+    
+    .scrollright {
+      left: 33vw;
+    }
+  
+  
+    /**** footer */
+    footer {
+      font-size: 7.7vw;
+      padding-bottom: 10vw;
+    }
+    
+    .footertext {
+      width: 77%;
+      margin: 0 auto;
+      padding: 10vw 0vw 10vw 0vw;
+    }
+    
+    
+    .footertext > p {
+      font-size: 4.4vw;
+      line-height: 5vw;
+      margin-top: 7vw;
+    }
+    
+    .footerlinks {
+      width: 70%;
+      margin-bottom: 16vw;
+    }
+    
+    .footerlinks > ul > li,
+    .footerlinks > ul > li > a {
+      font-size: 4.4vw;
+    }
+    
+    .footerlinks > ul > li > a {
+      padding: 5vw 0vw 5vw 0vw;
+      margin: 15vw 0vw 0vw 0vw;
+    }
+    
+    .line {
+      margin-top: 5vw;
+      padding: 0.1vw;
+      background-color: white;
+    }
+    
+    .footersymbols {
+      margin-top: 9vw;
+      font-size: 7.7vw;
+    }
+    
+  
+  .borderfootery {
+    display: flex;
+    margin: 10vw;
+    flex-direction: column;
+    padding: 10vw;
+  }
+  
+  
+  
+  
+  
+  /*** index */
+  
+  .first {
+    padding-bottom: 70vw;
+  }
+
+
+
+  /** text */
+  
+  .welcometext {
+    top: 30vw;
+    position: relative;
+    width: 100%;
+  }
+  
+  
+  .welcometext > p {
+    font-size: 4.4vw;
+    width: 70vw;
+  }
+  
+  .welcometext > h1 {
+    font-size: 11vw;
+    margin-bottom: 5vw;
+  }
+  
+
+  
+  
+  /* text */
+  
+  .textbox {
+    margin-bottom: 22vw;
+    top: -22vw;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .textbox img {
+    width: 100vh;
+  }
+  
+  .round {
+    padding: 11vw 7vw 11vw 7vw;
+  top: 95vw;
+  width: 88%;
+  font-size: 5.5vw;
+  margin: 0 auto;
+  }
+
+  .round img {
+    height: 50vw;
+    position: relative;
+  }
+  
+  
+  .round > h2 {
+    font-size: 5.5vw;
+  }
+  
+  
+  
+  /*** round circle */
+  
+  .roundtext {
+    width: 60%;
+    border-radius: 50%;
+    padding: 20vw 7vw 20vw 7vw;
+    font-size: 5.5vw;
+  }
+  
+
+
+
+    /*** round circle */
+
+.roundtext {
+  width: 33%;
+  border-radius: 50%;
+  padding: 7.7vw 2vw 7.7vw 2vw;
+  font-size: 3.3vw;
+}
+
+
+
+/* about */
+
+
+.first {
+  bottom: 6.6vw;
+  height: 70vw;
+}
+
+/** text */
+
+.welcometext {
+  padding-top: 20vw;
+}
+
+.welcometext > p {
+  font-size: 4.4vw;
+  margin-top: 3.3vw;
+}
+
+.welcometext > h1 {
+  font-size: 11vw;
+}
+
+
+
+
+/****** TEXT BOX */
+
+
+.text {
+  bottom: 20vw;
+flex-direction: column;
+grid-gap: 3vw;
+width: 80%;
+padding: 5vw 5vw 22vw 5vw;
+line-height: 10vw;
+font-size: 4.4vw;
+}
+  
+.one p, .two p {
+  margin-bottom: 2vw;
+}
+
+.textsymbols {
+  font-size: 3.3vw;
+  bottom: 44vw;
+  display: none;
+}
+
+
+.textsymbols > .fab {
+  margin: 10vw;
+}
+
+
+.fabborder {
+  padding: 3.3vw;
+}
+
+
+  
+  /*** round circle */
+  
+  .roundtext {
+    width: 60%;
+    border-radius: 50%;
+    padding: 20vw 7vw 20vw 7vw;
+    font-size: 5.5vw;
+  }
+  
+  
+  
+  }
